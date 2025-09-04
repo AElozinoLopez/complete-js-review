@@ -52,3 +52,30 @@ function square(number) {
 }
 
 console.log(square(2));
+
+// OPERATORS
+// Arithmetic Operators: +, -, *, /, %, **, ++, --
+// Assignment Operators: =, +=, -=, *=, /=
+// Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+// Logical Operators: &&, ||, !
+
+// Arithmetic Operators
+let x = 10;
+let y = 4;
+
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+console.log(x ** y);
+
+// Increment
+console.log(++x); //11
+console.log(x++); //11
+console.log(x); //12
+
+// Decrement
+console.log(--x); //11
+console.log(x--); //11
+console.log(x); //10
