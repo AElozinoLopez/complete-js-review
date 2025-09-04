@@ -96,5 +96,17 @@ console.log(c < 4);
 console.log(c <= 4);
 
 //Equality
-console.log(c === 4);
-console.log(c !== 4);
+console.log(c === 4); //Strict equality <Type + Value>
+
+console.log(c !== 4); //Lose equality <Value> and if the
+// type are not the same it converts the right value to
+// the type of the left value and cpmpares the value
+
+// Ternary Operator
+// The Condition: If a customer has more than 100 points,
+// they are a 'gold' customer, otherwise,
+// they are a 'silver' customer
+let points = 90;
+let type = points > 100 ? "gold" : "silver";
+
+console.log(type);
