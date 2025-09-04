@@ -39,8 +39,9 @@ console.log(selectedColors.length);
 // a set of statements that performs a task or calculates a value
 
 // Performing a task
-function greet(name) {
-  console.log("Hello " + name);
+function greet(name, lastName) {
+  console.log("Hello " + name + " " + lastName);
 }
 
-greet("Amanda");
+greet("Amanda", "Obi");
+greet("Ike", "Christian");
