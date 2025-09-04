@@ -141,7 +141,7 @@ let currentColor = userColor || defaultColor;
 
 console.log(currentColor);
 
-// Control Flow
+// CONTROL FLOW
 // If...else
 
 // Hour
@@ -150,8 +150,22 @@ console.log(currentColor);
 // Otherwise: Good evening
 
 let hour = 10;
-if (hour >= 6 && hour < 12) {
-  console.log("Good morning");
-} else if (hour >= 12 && hour < 18) {
-  console.log("Good afternoon");
-} else console.log("Good evening");
+if (hour >= 6 && hour < 12) console.log("Good morning");
+else if (hour >= 12 && hour < 18) console.log("Good afternoon");
+else console.log("Good evening");
+
+// Switch...case
+
+let role;
+switch (role) {
+  case "administrator":
+    console.log("Administrator");
+    break;
+
+  case "guest":
+    console.log("Guest User");
+    break;
+
+  default:
+    console.log("Unknown User");
+}
