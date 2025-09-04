@@ -44,4 +44,11 @@ function greet(name, lastName) {
 }
 
 greet("Amanda", "Obi");
-greet("Ike", "Christian");
+// greet("Ike", "Christian");
+
+// Calculating a value
+function square(number) {
+  return number * number;
+}
+
+console.log(square(2));
