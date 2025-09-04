@@ -133,3 +133,10 @@ let isEligible = goodIncome || highCreditScore;
 let refusedLoan = !isEligible;
 
 console.log(isEligible);
+
+// Applying Truthy or Falsy to get Short-circuting effect
+let userColor = "red";
+let defaultColor = "blue";
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor);
