@@ -77,5 +77,24 @@ console.log(x); //12
 
 // Decrement
 console.log(--x); //11
-console.log(x--); //11
-console.log(x); //10
+
+//Assignment Operator
+let z = 22;
+
+z += 3;
+
+console.log("z = " + z);
+// -=, *=, /=
+
+// Comparison Operator
+let c = 4;
+
+// Relational
+console.log(c > 4);
+console.log(c >= 4);
+console.log(c < 4);
+console.log(c <= 4);
+
+//Equality
+console.log(c === 4);
+console.log(c !== 4);
