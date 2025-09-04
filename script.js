@@ -31,6 +31,6 @@ console.log(selectedColors[1]);
 selectedColors[2] = "purple";
 selectedColors[1] = 27;
 
-console.log(selectedColors);
+console.log(selectedColors.length);
 
 //Technically an array is an object
