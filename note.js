@@ -140,3 +140,21 @@ let defaultColor = "blue";
 let currentColor = userColor || defaultColor;
 
 console.log(currentColor);
+
+// Control Flow
+// If...else
+
+// Hour
+// If hour is between 6am and 12pm: Good morning
+// If hour is between 12pm and 6pm: Good afternoon
+// Otherwise: Good evening
+
+if (condition) {
+  statement;
+} else if (condition) {
+  statement;
+} else if (anotherCondition) {
+  statement;
+} else if (yetAnotherCondition) {
+  statement;
+} else statement;
