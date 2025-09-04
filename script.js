@@ -26,3 +26,11 @@ console.log(person.name);
 
 let selectedColors = ["red", "blue"];
 console.log(selectedColors[1]);
+
+// The length of an array is dynamic. so also is the objects.
+selectedColors[2] = "purple";
+selectedColors[1] = 27;
+
+console.log(selectedColors);
+
+//Technically an array is an object
