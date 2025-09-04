@@ -34,3 +34,13 @@ selectedColors[1] = 27;
 console.log(selectedColors.length);
 
 //Technically an array is an object
+
+// Functions
+// a set of statements that performs a task or calculates a value
+
+// Performing a task
+function greet(name) {
+  console.log("Hello " + name);
+}
+
+greet("Amanda");
