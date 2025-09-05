@@ -224,3 +224,24 @@ let fruits = ["apple", "lettuce", "water melon", "grape"];
 for (let fruit of fruits) console.log(fruit);
 
 // Use the break keyword to jump out of a loop
+
+// OBJECTS
+// To group related objects together and also have a function act on them
+
+// let radius = 7;
+// let x = 1;
+// let y = 2;
+function draw() {}
+
+const circle = {
+  radius: 7,
+  location: {
+    x: 1,
+    y: 2,
+  },
+  draw: function () {
+    console.log("Draw a circle");
+  },
+};
+
+console.log(circle.draw());
