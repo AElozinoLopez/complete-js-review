@@ -278,5 +278,5 @@ function Circle(radius) {
     });
 }
 
-const newCircle = new Circle(1);
-console.log(newCircle);
+const circle3 = new Circle(1);
+console.log(circle3);
