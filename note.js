@@ -279,7 +279,10 @@ function Circle(radius) {
     });
 }
 
-const circle3 = new Circle(1);
+const circle3 = new Circle(3);
+// Line 282 can also be written as:
+Circle.call({}, 3); // This is using the call method to create circle 3
+
 console.log(circle3);
 
 // OBJECTS ARE DYNAMIC - You can add properties to them and delete properties from them
