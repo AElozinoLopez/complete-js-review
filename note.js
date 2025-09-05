@@ -174,3 +174,9 @@ switch (role) {
 if (role === "administrator") console.log("Administrator");
 else if (role === "guest") console.log("Guest User");
 else console.log("Unknown");
+
+// LOOPS
+//For loop
+// for (initialExpression; Condition; increment) statement
+for (i = 0; i < 5; i++) console.log("For loop", i);
+for (i = 1; i <= 5; i++) console.log("The For loop", i);
