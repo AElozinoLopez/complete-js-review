@@ -249,7 +249,8 @@ const circle = {
 circle.draw(); // Method
 
 // Factory Function
-//  thins is used to create multiple objects
+//  this is used to create multiple objects
+// This uses camel notation - oneTwoThreeFour
 
 function createCircle(radius) {
   return {
@@ -265,3 +266,17 @@ console.log(circle1);
 
 const circle2 = createCircle(2);
 console.log(circle2);
+
+// Constructor Functions
+// this function is also to create an object
+// The Constructor function uses Pascal notation - OneTwoThreeFour
+
+function Circle(radius) {
+  (this.radius = radius),
+    (this.draw = function () {
+      console.log("draw");
+    });
+}
+
+const newCircle = new Circle(1);
+console.log(newCircle);
