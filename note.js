@@ -204,3 +204,15 @@ do {
 
 // AVOID Infinite loops
 //not incrememting creates infinite loop which can crash your browser or your pc
+
+// For...in loop
+// To iterate over the properties of an object
+
+let robot = {
+  name: "tosin",
+  use: "massager",
+};
+
+for (let key in robot) {
+  console.log(key, robot[key]);
+}
