@@ -244,4 +244,4 @@ const circle = {
   },
 };
 
-console.log(circle.draw());
+circle.draw();
