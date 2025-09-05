@@ -270,6 +270,7 @@ console.log(circle2);
 // Constructor Functions
 // this function is also to create an object
 // The Constructor function uses Pascal notation - OneTwoThreeFour
+// Used mostly by developers familiar with Java and/or C#
 
 function Circle(radius) {
   (this.radius = radius),
@@ -280,3 +281,18 @@ function Circle(radius) {
 
 const circle3 = new Circle(1);
 console.log(circle3);
+
+// OBJECTS ARE DYNAMIC - You can add properties to them and delete properties from them
+const school = {
+  name: "Belmont",
+};
+
+// Adding properties
+school.address = "PortHarcourt";
+school.color = "Ash and white";
+school.securityGuard = "Amadi";
+
+// Deleting Properties
+delete school.securityGuard;
+
+console.log(school);
