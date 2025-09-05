@@ -185,3 +185,22 @@ for (i = 1; i <= 5; i++) console.log("The For loop", i);
 for (i = 1; i <= 5; i++) {
   if (i % 2 !== 0) console.log(i);
 }
+
+//While Loop
+let ii = 0;
+
+while (ii <= 5) {
+  if (ii % 2 !== 0) console.log(ii);
+  ii++;
+}
+
+//do...while loop
+let q = 0;
+
+do {
+  if (q % 2 !== 0) console.log(q);
+  q++;
+} while (q <= 10);
+
+// AVOID Infinite loops
+//not incrememting creates infinite loop which can crash your browser or your pc
