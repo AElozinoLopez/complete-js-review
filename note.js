@@ -231,17 +231,37 @@ for (let fruit of fruits) console.log(fruit);
 // let radius = 7;
 // let x = 1;
 // let y = 2;
-function draw() {}
+// function draw() {}
 
+// Object-oriented Programming (OOP)
 const circle = {
   radius: 7,
   location: {
     x: 1,
     y: 2,
   },
+  isActive: true,
   draw: function () {
     console.log("Draw a circle");
   },
 };
 
-circle.draw();
+circle.draw(); // Method
+
+// Factory Function
+//  thins is used to create multiple objects
+
+function createCircle(radius) {
+  return {
+    radius,
+    draw() {
+      console.log("Draw a circle");
+    },
+  };
+}
+
+const circle1 = createCircle(1);
+console.log(circle1);
+
+const circle2 = createCircle(2);
+console.log(circle2);
