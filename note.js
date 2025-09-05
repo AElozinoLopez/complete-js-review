@@ -222,3 +222,5 @@ for (let key in robot) {
 
 let fruits = ["apple", "lettuce", "water melon", "grape"];
 for (let fruit of fruits) console.log(fruit);
+
+// Use the break keyword to jump out of a loop
