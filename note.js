@@ -216,3 +216,9 @@ let robot = {
 for (let key in robot) {
   console.log(key, robot[key]);
 }
+
+// For...of loop
+// To iterate over the elements in an array
+
+let fruits = ["apple", "lettuce", "water melon", "grape"];
+for (let fruit of fruits) console.log(fruit);
