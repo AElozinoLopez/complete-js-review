@@ -169,3 +169,8 @@ switch (role) {
   default:
     console.log("Unknown User");
 }
+
+// Achieving same result using if...else statement
+if (role === "administrator") console.log("Administrator");
+else if (role === "guest") console.log("Guest User");
+else console.log("Unknown");
