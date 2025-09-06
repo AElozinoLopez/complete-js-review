@@ -331,4 +331,6 @@ const church2 = {};
 for (let key in church) church2[key] = church[key];
 console.log(church2);
 
-// New method of cloning
+// New method of cloning using the  .assign method
+const church3 = Object.assign({}, church);
+console.log(church3);
