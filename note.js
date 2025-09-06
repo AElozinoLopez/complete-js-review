@@ -334,3 +334,7 @@ console.log(church2);
 // New method of cloning using the  .assign method
 const church3 = Object.assign({}, church);
 console.log(church3);
+
+// The Simplest way to clone an object - the spread operator (...)
+const church4 = { ...church };
+console.log(church4);
