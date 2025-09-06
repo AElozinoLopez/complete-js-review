@@ -304,7 +304,7 @@ console.log(school);
 
 // USING FOR...OF LOOP TO ITERATE OVER THE PROPERTIES OF AN OBJECT
 
-const churches = {
+const church = {
   denomination: "Pentecostal",
   name: "TCN",
   draw: function () {
@@ -313,13 +313,21 @@ const churches = {
 };
 
 // For..in loop
-for (let key in churches) console.log(key, churches[key]);
+for (let key in church) console.log(key, church[key]);
 
 // For...of loop
 // To get the keys
-for (let key of Object.keys(churches)) console.log(key);
+for (let key of Object.keys(church)) console.log(key);
 // To get the values
-for (let church of Object.entries(churches)) console.log(church);
+for (let chu of Object.entries(church)) console.log(chu);
 
 // To check if a given property exists in an object, use the in property
-if ("Pentecostal" in churches) console.log("Yes");
+if ("Pentecostal" in church) console.log("Yes");
+
+// CLONING AN OBJECT
+// Cloning the churches object
+const anotherChurch = {};
+for (let key in church) console.log(key);
+anotherChurch[key] = church[key];
+
+console.log(another);
