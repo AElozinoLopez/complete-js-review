@@ -319,4 +319,4 @@ for (let key in churches) console.log(key, churches[key]);
 // To get the keys
 for (let key of Object.keys(churches)) console.log(key);
 // To get the values
-for (let key of Object.entries(churches)) console.log(key);
+for (let church of Object.entries(churches)) console.log(church);
