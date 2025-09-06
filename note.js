@@ -299,3 +299,18 @@ school.securityGuard = "Amadi";
 delete school.securityGuard;
 
 console.log(school);
+
+//////////////////////////////////////////////////////////////////
+
+// USING FOR...OF LOOP TO ITERATE OVER THE PROPERTIES OF AN OBJECT
+
+const churches = {
+  denomination: "Pentecostal",
+  name: "TCN",
+  draw: function () {
+    console.log("My church");
+  },
+};
+
+// For..in loop
+for (let key in churches) console.log(key, churches[key]);
