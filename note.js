@@ -326,8 +326,7 @@ if ("Pentecostal" in church) console.log("Yes");
 
 // CLONING AN OBJECT
 // Cloning the churches object
-const anotherChurch = {};
-for (let key in church) console.log(key);
-anotherChurch[key] = church[key];
+const another = {};
+for (let key in church) another[key] = church[key];
 
 console.log(another);
