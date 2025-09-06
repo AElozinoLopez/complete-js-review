@@ -320,3 +320,6 @@ for (let key in churches) console.log(key, churches[key]);
 for (let key of Object.keys(churches)) console.log(key);
 // To get the values
 for (let church of Object.entries(churches)) console.log(church);
+
+// To check if a given property exists in an object, use the in property
+if ("Pentecostal" in churches) console.log("Yes");
