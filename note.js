@@ -314,3 +314,9 @@ const churches = {
 
 // For..in loop
 for (let key in churches) console.log(key, churches[key]);
+
+// For...of loop
+// To get the keys
+for (let key of Object.keys(churches)) console.log(key);
+// To get the values
+for (let key of Object.entries(churches)) console.log(key);
