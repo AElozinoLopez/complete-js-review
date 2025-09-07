@@ -155,11 +155,13 @@ console.log(areSame(address1, address2));
 const blog = {
   title: "How to Learn Code The Easy Way",
   author: "Elozino Lopez",
-  views: "10 million",
-  comment: {
-    author: "Chinwe Elozino",
-    body: "This is indeed a smart way not just to code but to do everything else",
-  },
+  views: 10000000,
+  comment: [
+    {
+      author: "Chinwe Elozino",
+      body: "This is indeed a smart way not just to code but to do everything else",
+    },
+  ],
   isLive: true,
 };
 
