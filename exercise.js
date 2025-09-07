@@ -78,3 +78,21 @@ function fizzBuzz(input) {
 }
 
 console.log(fizzBuzz(7));
+
+// EXERCISE ON OBJECTS
+// Exercise 1
+// Create an address object that takes three properties - street, city, and zipcode.
+// Then create a function called showAddress(address) to display all the properties
+// of this object along with their values
+
+const address = {
+  street: "2 exercise street",
+  city: "Lagos",
+  zipcode: 123456,
+};
+
+function showAddress(address) {
+  for (let key in address) console.log(key, address[key]);
+}
+
+showAddress(address);
