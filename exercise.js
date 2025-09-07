@@ -183,3 +183,6 @@ function Post(title, author, views, comment, isLive) {
       return isLive;
     });
 }
+
+const blogPost = new Post("a", "b", 10, "c", "false");
+console.log(blogPost);
