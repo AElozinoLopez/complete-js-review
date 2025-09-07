@@ -143,3 +143,24 @@ function areSame(address1, address2) {
 }
 
 console.log(areSame(address1, address2));
+
+//  Create a blog post with the following properties
+// titile
+// author
+// views
+// comment
+//    (author, body)
+// isLive
+
+const blog = {
+  title: "How to Learn Code The Easy Way",
+  author: "Elozino Lopez",
+  views: "10 million",
+  comment: {
+    author: "Chinwe Elozino",
+    body: "This is indeed a smart way not just to code but to do everything else",
+  },
+  isLive: true,
+};
+
+for (content in blog) console.log(content, blog[content]);
