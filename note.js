@@ -366,3 +366,10 @@ testString.toLowerCase();
 testString.trim(); // To remove the extra whitespace at the beginning and end of a string
 testString.trimLeft();
 testString.trimRight();
+
+// Escape Notation
+// This is used to add extra characters to a string or to send certain section to a new line
+const escapeNotation =
+  "This is to 'demo' the escape notation \n and also to contrast it with template literal.";
+
+console.log(escapeNotation);
