@@ -117,9 +117,18 @@ function ShowAddress(street, address, zipCode) {
   (this.street = "street"), (this.city = "city"), (this.zipcode = zipCode);
 }
 
-const addressConstructor = new ShowAddress(
-  "4 exercise street",
-  "Isolo",
-  987654
-);
+let addressConstructor = new ShowAddress("4 exercise street", "Isolo", 987654);
 console.log(addressConstructor);
+
+// Exercise 3
+// Create 2 functions to check if address1 nd address 2 areEqual and if they areSame
+
+let address1 = new ShowAddress("a", "b", "c");
+let address2 = new ShowAddress("a", "b", "c");
+
+function areEqual(address1, address2) {}
+function areSame(address1, address2) {
+  return address1 === address2;
+}
+
+console.log(areSame(address1, address2));
