@@ -392,6 +392,15 @@ const now = new Date();
 const date1 = new Date("September 7 2025 03:06");
 const date2 = new Date(2025, 8, 7, 3, 9);
 
-console.log(now);
 console.log(date1);
 console.log(date2);
+
+// The date objects can take the .set() and .get() method
+now.setFullYear(2026);
+console.log(now);
+
+// Some methods that can be applied to the date object
+now.toDateString();
+now.toTimeString();
+now.toISOString(); // Best used when creating time for a web and mobile app for sending
+// date between the client and the server
