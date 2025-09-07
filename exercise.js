@@ -126,7 +126,18 @@ console.log(addressConstructor);
 let address1 = new ShowAddress("a", "b", "c");
 let address2 = new ShowAddress("a", "b", "c");
 
-function areEqual(address1, address2) {}
+// Are equal, that is, if the values are equal
+function areEqual(address1, address2) {
+  return (
+    address1.street === address2.street &&
+    address1.city === address2.city &&
+    address1.zipCode === address2.zipCode
+  );
+}
+
+console.log(areEqual(address1, address2));
+
+// Are Same, that is, point to same location in memory.
 function areSame(address1, address2) {
   return address1 === address2;
 }
