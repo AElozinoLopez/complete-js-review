@@ -373,3 +373,11 @@ const escapeNotation =
   "This is to 'demo' the escape notation \n and also to contrast it with template literal.";
 
 console.log(escapeNotation);
+
+// Template Literal (``)
+// Better used in place of escape notation. For sending messages and for placeholders
+
+const templateLiteral = `This is to demo the escape notation 
+and also to contrast it with template literal.`;
+
+console.log(templateLiteral);
