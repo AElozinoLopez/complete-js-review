@@ -85,7 +85,7 @@ console.log(fizzBuzz(7));
 // Then create a function called showAddress(address) to display all the properties
 // of this object along with their values
 
-const address = {
+let address = {
   street: "2 exercise street",
   city: "Lagos",
   zipcode: 123456,
@@ -96,3 +96,18 @@ function showAddress(address) {
 }
 
 showAddress(address);
+
+// Exercise 2
+// Initialize the address object using a factory function and a constructor function
+
+// Using Factory Function
+function showAddress(address, city, zipcode) {
+  return {
+    address,
+    city,
+    zipcode,
+  };
+}
+
+let addressFactory = showAddress("3 exercise street", "Ikota", 654321);
+console.log(addressFactory);
