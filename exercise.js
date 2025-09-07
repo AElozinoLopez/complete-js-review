@@ -166,3 +166,20 @@ const blog = {
 };
 
 for (content in blog) console.log(content, blog[content]);
+
+// Exercise 4
+// Create a constructor function called post for a blog yet to be published
+function Post(title, author, views, comment, isLive) {
+  (this.title = "title"),
+    (this.author = "author"),
+    (this.views = 10000000),
+    (this.comment = [
+      {
+        title: title,
+        author: author,
+      },
+    ]),
+    (this.draw = function () {
+      return isLive;
+    });
+}
