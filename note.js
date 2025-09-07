@@ -376,8 +376,11 @@ console.log(escapeNotation);
 
 // Template Literal (``)
 // Better used in place of escape notation. For sending messages and for placeholders
+const petName = "Bliss";
+const templateLiteral = `Hi ${petName},
+This is to demo the escape notation 
+and also to contrast it with template literal.
 
-const templateLiteral = `This is to demo the escape notation 
-and also to contrast it with template literal.`;
+Do you know that ${2 * 8} is the result of 2 * 8?`;
 
 console.log(templateLiteral);
