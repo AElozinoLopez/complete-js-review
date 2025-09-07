@@ -338,3 +338,31 @@ console.log(church3);
 // The Simplest way to clone an object - the spread operator (...)
 const church4 = { ...church };
 console.log(church4);
+
+// JavaXsript has built in objects
+// Math object
+// String object
+// Date object, etc
+
+// Math.max(), Math.min(), Math.random(), etc
+
+// String object
+const testString = "This is to test the string object in action.";
+
+console.log(testString);
+
+// Some Methods of the string object
+testString.length;
+testString[0]; // To get the property in the first index
+testString[1];
+testString.includes("to");
+testString.includes("why");
+testString.startsWith("this");
+testString.endsWith("thanks");
+testString.indexOf("test");
+testString.replace("test", "sample");
+testString.toUpperCase();
+testString.toLowerCase();
+testString.trim(); // To remove the extra whitespace at the beginning and end of a string
+testString.trimLeft();
+testString.trimRight();
