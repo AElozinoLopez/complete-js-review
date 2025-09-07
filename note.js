@@ -384,3 +384,14 @@ and also to contrast it with template literal.
 Do you know that ${2 * 8} is the result of 2 * 8?`;
 
 console.log(templateLiteral);
+
+// Date Object
+// Three ways to create date using the Date object
+
+const now = new Date();
+const date1 = new Date("September 7 2025 03:06");
+const date2 = new Date(2025, 8, 7, 3, 9);
+
+console.log(now);
+console.log(date1);
+console.log(date2);
