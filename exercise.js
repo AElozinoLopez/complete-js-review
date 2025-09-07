@@ -113,11 +113,13 @@ let addressFactory = showAddress("3 exercise street", "Ikota", 654321);
 console.log(addressFactory);
 
 // Using Factory Function
-function ShowAddress(address) {
-  (this.street = "4 exercise street"),
-    (this.city = "Isolo"),
-    (this.zipcode = 987654);
+function ShowAddress(street, address, zipCode) {
+  (this.street = "street"), (this.city = "city"), (this.zipcode = zipCode);
 }
 
-const addressConstructor = new ShowAddress(address);
+const addressConstructor = new ShowAddress(
+  "4 exercise street",
+  "Isolo",
+  987654
+);
 console.log(addressConstructor);
