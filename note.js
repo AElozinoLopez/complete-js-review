@@ -408,7 +408,7 @@ now.toISOString(); // Best used when creating time for a web and mobile app for 
 // ARRAYS
 // Note that Arrays are objects and so they have methods
 
-// Adding Elements to Array
+// 1. Adding Elements to Array
 const numbers = [3, 4];
 
 // Add to End
@@ -421,3 +421,23 @@ numbers.unshift(1, 2);
 numbers.splice(2, 0, "a", "b", "c");
 
 console.log(numbers);
+
+// FINDING Elenents
+// Finding Primitives
+console.log(numbers.indexOf(1));
+console.log(numbers.indexOf("1")); // Returns -1 because '1' does not exist in the array
+
+console.log(numbers.indexOf(1) !== -1); // Checks if 1 exists in the array
+console.log(numbers.includes(1)); // Cleaner way to check if 1 exists in the array
+
+// Finding Primitives
+const courses = [
+  { id: 1, name: "FrontEnd" },
+  { id: 2, name: "BackEnd" },
+];
+
+const course = courses.find(function (course) {
+  return course.name === "FrontEnd";
+});
+
+console.log(course);
