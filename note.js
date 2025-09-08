@@ -417,4 +417,7 @@ numbers.push(4, 5);
 // Add to Start
 numbers.unshift(1, 2);
 
+// Add to anywhere inbetween - lets do index 2
+numbers.splice(2, 0, "a", "b", "c");
+
 console.log(numbers);
