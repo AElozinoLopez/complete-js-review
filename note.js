@@ -440,4 +440,9 @@ const course = courses.find(function (course) {
   return course.name === "FrontEnd";
 });
 
-console.log(course);
+// To get the index. Returns "undefined" if element is unavailable
+const course2 = courses.findIndex(function (course2) {
+  return course2.name === "BackEnd";
+});
+
+console.log(course2);
