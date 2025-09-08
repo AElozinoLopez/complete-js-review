@@ -404,3 +404,14 @@ now.toDateString();
 now.toTimeString();
 now.toISOString(); // Best used when creating time for a web and mobile app for sending
 // date between the client and the server
+
+// ARRAYS
+// Note that Arrays are objects and so they have methods
+
+// Adding Elements to Array
+const numbers = [3, 4];
+
+// Add to End
+numbers.push(4, 5);
+
+console.log(numbers);
