@@ -525,3 +525,14 @@ const thirdArr = [...combine]; // To assign an array to another variable
 
 console.log(combine);
 console.log(thirdArr);
+
+// ITERATING AN ARRAY
+const iterating = [1, 2, 3, 4];
+
+// Method 1
+for (iterate of iterating) console.log(iterate);
+
+// Method 2
+iterating.forEach(function (iterate) {
+  console.log(iterate);
+});
