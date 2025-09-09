@@ -521,4 +521,7 @@ const secondArr = [6, 7, 8];
 
 const combine = [...firstArr, ...secondArr];
 
+const thirdArr = [...combine]; // To assign an array to another variable
+
 console.log(combine);
+console.log(thirdArr);
