@@ -485,7 +485,20 @@ let emptyingArray = [1, 2, 3, 4];
 let reassignedEmptiedArray = emptyingArray;
 
 // Solution 1
-emptyingArray = []; // This only works if the re are no other objests pointing to ths same array
+// emptyingArray = []; // This only works if the re are no other objests pointing to ths same array
+
+// Solution 2
+
+// emptyingArray.length = 0;
+
+// Solution 3
+// Use the splice method
+
+// emptyingArray.splice(0, emptyingArray.length);
+
+// Solution 4
+// Using the pop method with the while loop to iterate the array until the count is complete
+while (emptyingArray.length > 0) emptyingArray.open();
 
 console.log(emptyingArray);
 console.log(reassignedEmptiedArray);
