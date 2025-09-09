@@ -536,3 +536,7 @@ for (iterate of iterating) console.log(iterate);
 iterating.forEach(function (iterate) {
   console.log(iterate);
 });
+
+// Using arrow function
+iterating.forEach(iterateArrow => iterateArrow;
+);
