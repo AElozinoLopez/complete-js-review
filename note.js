@@ -477,3 +477,15 @@ deleteElements.splice(2, 1); // deletes 1 item at index 2 ie 4 is deleted
 deleteElements.splice(1, 2); // deletes 1 item at index 2 ie 4 is deleted
 
 console.log(deleteElements);
+
+// EMPTYING AN ARRAY
+
+let emptyingArray = [1, 2, 3, 4];
+
+let reassignedEmptiedArray = emptyingArray;
+
+// Solution 1
+emptyingArray = []; // This only works if the re are no other objests pointing to ths same array
+
+console.log(emptyingArray);
+console.log(reassignedEmptiedArray);
