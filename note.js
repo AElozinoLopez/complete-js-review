@@ -434,6 +434,7 @@ console.log(numbers.includes(1)); // Cleaner way to check if 1 exists in the arr
 const courses = [
   { id: 1, name: "FrontEnd" },
   { id: 2, name: "BackEnd" },
+  { id: 3, name: "UI/UX" },
 ];
 
 // To get the index. Returns "undefined" if element is unavailable
