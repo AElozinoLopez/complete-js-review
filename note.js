@@ -459,5 +459,5 @@ console.log(course2);
 
 // The above function can be rewritten using arrow function as below
 
-const course3 = courses.find((course) => course3.name === "UI/UX");
+const course3 = courses.find((course3) => course3.name === "UI/UX");
 console.log(course3);
