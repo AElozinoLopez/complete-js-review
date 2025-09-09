@@ -466,4 +466,9 @@ console.log(course3);
 const deleteElements = [1, 2, 3, 4, 5, 6, 7];
 
 //  From End
-deleteElements.pop();
+deleteElements.pop(); // deletes 7
+
+// From Beginning
+deleteElements.shift(); // deletes 1
+
+console.log(deleteElements);
