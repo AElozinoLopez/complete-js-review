@@ -508,7 +508,17 @@ const second = [4, 5, 6];
 
 const combined = first.concat(second); // Combining Arrays
 
-const slice = combined.slice(2, 4);
+const slice = combined.slice(2, 4); // You can remove the end index
 
 console.log(combined);
 console.log(slice);
+
+// THE SPREAD OPERATOR [... ]
+// It offers a cleaner way to combine and slice arrays
+
+const firstArr = [1, 2, 3, 4, 5];
+const secondArr = [6, 7, 8];
+
+const combine = [...firstArr, ...secondArr];
+
+console.log(combine);
