@@ -471,4 +471,8 @@ deleteElements.pop(); // deletes 7
 // From Beginning
 deleteElements.shift(); // deletes 1
 
+// From Middle
+deleteElements.splice(2, 1); // deletes 1 item at index 2 ie 4 is deleted
+deleteElements.splice(1, 2); // deletes 1 item at index 2 ie 4 is deleted
+
 console.log(deleteElements);
