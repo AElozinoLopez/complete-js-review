@@ -498,7 +498,7 @@ let reassignedEmptiedArray = emptyingArray;
 
 // Solution 4
 // Using the pop method with the while loop to iterate the array until the count is complete
-while (emptyingArray.length > 0) emptyingArray.open();
+while (emptyingArray.length > 0) emptyingArray.pop();
 
 console.log(emptyingArray);
 console.log(reassignedEmptiedArray);
