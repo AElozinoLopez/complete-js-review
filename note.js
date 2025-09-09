@@ -436,13 +436,27 @@ const courses = [
   { id: 2, name: "BackEnd" },
 ];
 
+// To get the index. Returns "undefined" if element is unavailable
 const course = courses.find(function (course) {
   return course.name === "FrontEnd";
 });
 
-// To get the index. Returns "undefined" if element is unavailable
+// To get the index. Returns "-1" if element is unavailable
 const course2 = courses.findIndex(function (course2) {
   return course2.name === "BackEnd";
 });
 
 console.log(course2);
+
+// ARROW FUNCTIONS
+// This is used when we need to pass another funciton inside of a function as a method
+// or as an argument to a different method
+
+// const course = courses.find(function (course) {
+//   return course.name === "FrontEnd";
+// });
+
+// The above function can be rewritten using arrow function as below
+
+const course3 = courses.find((course) => course3.name === "UI/UX");
+console.log(course3);
