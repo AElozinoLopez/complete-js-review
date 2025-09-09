@@ -519,7 +519,7 @@ console.log(slice);
 const firstArr = [1, 2, 3, 4, 5];
 const secondArr = [6, 7, 8];
 
-const combine = [...firstArr, ...secondArr];
+const combine = [...firstArr, "a", ...secondArr];
 
 const thirdArr = [...combine]; // To assign an array to another variable
 
