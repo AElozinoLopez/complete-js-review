@@ -457,7 +457,13 @@ console.log(course2);
 //   return course.name === "FrontEnd";
 // });
 
-// The above function can be rewritten using arrow function as below
+// The above function can be rewritten using arrow function for course3 as below
 
 const course3 = courses.find((course3) => course3.name === "UI/UX");
 console.log(course3);
+
+// REMOVING ELEMENTS FROM AN ARRAY
+const deleteElements = [1, 2, 3, 4, 5, 6, 7];
+
+//  From End
+deleteElements.pop();
