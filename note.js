@@ -418,7 +418,8 @@ numbers.push(4, 5);
 numbers.unshift(1, 2);
 
 // Add to anywhere inbetween - lets do index 2
-numbers.splice(2, 0, "a", "b", "c");
+numbers.splice(2, 0, "a", "b", "c"); //2 is the starting index, 0 means we are not deleting any element;
+// a, b, c will be added from index 2
 
 console.log(numbers);
 
