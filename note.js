@@ -533,10 +533,9 @@ const iterating = [1, 2, 3, 4];
 for (iterate of iterating) console.log(iterate);
 
 // Method 2
-iterating.forEach(function (iterate) {
-  console.log(iterate);
-});
+// iterating.forEach(function (iterate) {
+//   console.log(iterate);
+// });
 
 // Using arrow function
-iterating.forEach(iterateArrow => iterateArrow;
-);
+iterating.forEach((iterateArrow) => console.log(iterateArrow));
