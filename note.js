@@ -626,4 +626,4 @@ const atLeastOnePositive = testingArr.some((value) => {
   return value >= 0; // Test to see if the values are positive
 });
 
-console.log(atleastOnePositive);
+console.log(atLeastOnePositive);
