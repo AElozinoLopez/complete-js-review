@@ -608,3 +608,15 @@ sortArrRef2.sort((a, b) => {
 });
 
 console.log(sortArrRef2);
+
+// TESTING THE ELEMENTS IN AN ARRAY
+//  The every() and some() methods are used for testing
+
+// every()
+const testingArr = [1, 2, 3, 4];
+
+const allPositive = testingArr.every((value) => {
+  return value > 0; // Test to see if the values are positive
+});
+
+console.log(allPositive);
