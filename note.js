@@ -678,8 +678,9 @@ console.log(sum);
 
 // The modern way to achieve this is with the reduce method
 
-const sumArr = reduceArr.reduce((accumulator, currentValue) => {
-  return accumulator + currentValue;
-}, 0); // The 0 sets the accumulator to 0, similar to let sum = 0
+const sumArr = reduceArr.reduce(
+  (accumulator, currentValue) => accumulator + currentValue
+); // Deleting the 0 sets the accumulator
+// to the initial value in the array.
 
 console.log(sumArr);
