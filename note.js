@@ -649,10 +649,7 @@ const items = filtered.map((v) => "<li>" + v + "</li>");
 const html = "<ul>" + items.join("") + "</ul>";
 
 // Mapping to an object
-const itemsObj = filtered.map((v) => {
-  const obj = { value: v };
-  return obj;
-});
+const itemsObj = filtered.map((v) => ({ value: v }));
 
 console.log(itemsObj);
 console.log(html);
