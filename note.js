@@ -559,3 +559,9 @@ const urlSlug = splited.join("-"); // This technique of combining split and join
 
 console.log(splited);
 console.log(urlSlug);
+
+// SORTING ARRAYS
+const sortArr = [2, 3, 1];
+sortArr.sort();
+
+console.log(sortArr);
