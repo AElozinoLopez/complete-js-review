@@ -568,3 +568,22 @@ sortArr.sort(); // The sort method converts each element into a string and sorts
 sortArr.reverse(); // The reverse method works with the sort method to reverse the order of the sorted array
 
 console.log(sortArr);
+
+//When applied to reference types
+
+const sortArrRef = [
+  { id: 1, name: "UI/UX" },
+  { id: 2, name: "Graphic Design" },
+];
+
+sortArrRef.sort(function (a, b) {
+  // a < b => -1
+  // a > b => 1
+  // a === b => 0
+
+  if (a.name < b.name) return -1;
+  if (a.name > b.name) return 1;
+  return 0;
+});
+
+console.log(sortArrRef);
