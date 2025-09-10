@@ -612,11 +612,18 @@ console.log(sortArrRef2);
 // TESTING THE ELEMENTS IN AN ARRAY
 //  The every() and some() methods are used for testing
 
-// every()
+// every() checks to see if all the elements matches the given criteria
 const testingArr = [1, 2, 3, 4];
 
 const allPositive = testingArr.every((value) => {
-  return value > 0; // Test to see if the values are positive
+  return value >= 0; // Test to see if the values are positive
 });
 
 console.log(allPositive);
+
+// some() checks to see if atleast one element matches the given criteria
+const atLeastOnePositive = testingArr.some((value) => {
+  return value >= 0; // Test to see if the values are positive
+});
+
+console.log(atleastOnePositive);
