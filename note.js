@@ -644,4 +644,9 @@ console.log(filtered);
 // MAPPING AN ARRAY
 // This is used to map each item in an array to something else
 const items = filtered.map((v) => "<li>" + v + "</li>");
+
+// We can use the join method with the map method to join the elements
+const html = "<ul>" + items.join("") + "</ul>";
+
 console.log(items);
+console.log(html);
