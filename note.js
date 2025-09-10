@@ -562,6 +562,9 @@ console.log(urlSlug);
 
 // SORTING ARRAYS
 const sortArr = [2, 3, 1];
-sortArr.sort();
+
+// When applied to primitives
+sortArr.sort(); // The sort method converts each element into a string and sorts them from top to bottom
+sortArr.reverse(); // The reverse method works with the sort method to reverse the order of the sorted array
 
 console.log(sortArr);
