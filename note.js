@@ -627,3 +627,8 @@ const atLeastOnePositive = testingArr.some((value) => {
 });
 
 console.log(atLeastOnePositive);
+
+// FILTERING AN ARRAY
+// The filter() method is used to filter an array. It takes a callback function
+
+const filterArr = [1, 2, -1, 3, 4];
