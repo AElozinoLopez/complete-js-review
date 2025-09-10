@@ -544,7 +544,15 @@ iterating.forEach((iterateArrow) => console.log(iterateArrow));
 iterating.forEach((iterateArrow, index) => console.log(index, iterateArrow));
 
 //  JOINING ARRAYS
+// Tjhe join() is used to join the elements in an array
 const joinArr = [1, 2, 3, 4];
 const joined = joinArr.join(",");
 
 console.log(joined);
+
+// The split() method is used to seperate the elements in a string. The result is an array
+const splitStr = "This string is going ot be split now!";
+
+const splited = splitStr.split(" ");
+
+console.log(splited);
