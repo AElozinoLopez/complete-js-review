@@ -648,5 +648,11 @@ const items = filtered.map((v) => "<li>" + v + "</li>");
 // We can use the join method with the map method to join the elements
 const html = "<ul>" + items.join("") + "</ul>";
 
-console.log(items);
+// Mapping to an object
+const itemsObj = filtered.map((v) => {
+  const obj = { value: v };
+  return obj;
+});
+
+console.log(itemsObj);
 console.log(html);
