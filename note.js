@@ -653,3 +653,11 @@ const itemsObj = filtered.map((v) => ({ value: v }));
 
 console.log(itemsObj);
 console.log(html);
+
+////////////////////////////
+// Chaining filterand map method. Cleanest way to achieve the above repeated algorithm for filter and map
+const filterArr2 = [1, 2, -1, 3, 4];
+
+const chainItems = filterArr2.filter((v) => v >= 0).map((v) => ({ value: v }));
+
+console.log(chainItems);
