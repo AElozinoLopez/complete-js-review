@@ -542,3 +542,9 @@ iterating.forEach((iterateArrow) => console.log(iterateArrow));
 
 // The forEach method takes a second parameter - index, which logs the index alongside each element
 iterating.forEach((iterateArrow, index) => console.log(index, iterateArrow));
+
+//  JOINING ARRAYS
+const joinArr = [1, 2, 3, 4];
+const joined = joinArr.join(",");
+
+console.log(joined);
