@@ -631,4 +631,11 @@ console.log(atLeastOnePositive);
 // FILTERING AN ARRAY
 // The filter() method is used to filter an array. It takes a callback function
 
+// This example checks for positive numbers in the array
 const filterArr = [1, 2, -1, 3, 4];
+
+const filtered = filterArr.filter(function (value) {
+  return value >= 0; //Takes only the positive numbers
+});
+
+console.log(filtered);
