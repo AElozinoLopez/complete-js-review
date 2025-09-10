@@ -661,3 +661,14 @@ const filterArr2 = [1, 2, -1, 3, 4];
 const chainItems = filterArr2.filter((v) => v >= 0).map((v) => ({ value: v }));
 
 console.log(chainItems);
+
+// RECUCING AN ARRAY
+const reduceArr = [1, 2, -1, 3, 4];
+
+// To sum all the elements together
+let sum = 0;
+
+for (let n of reduceArr) sum += n;
+// same as the expression below. but the expression above is cleaner
+for (let n of reduceArr) sum += n;
+console.log(sum);
