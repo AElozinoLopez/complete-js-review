@@ -634,8 +634,8 @@ console.log(atLeastOnePositive);
 // This example checks for positive numbers in the array
 const filterArr = [1, 2, -1, 3, 4];
 
-const filtered = filterArr.filter(function (value) {
-  return value >= 0; //Takes only the positive numbers
-});
+const filtered = filterArr.filter(
+  (value) => value >= 0 //Takes only the positive numbers
+);
 
 console.log(filtered);
