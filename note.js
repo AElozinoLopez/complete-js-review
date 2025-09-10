@@ -663,6 +663,9 @@ const chainItems = filterArr2.filter((v) => v >= 0).map((v) => ({ value: v }));
 console.log(chainItems);
 
 // RECUCING AN ARRAY
+// The .reduce() is used.
+// This method allows us to reduce all the elements in an array to a single value,
+// ie the sum of all the numbers in an array
 const reduceArr = [1, 2, -1, 3, 4];
 
 // To sum all the elements together
@@ -670,5 +673,13 @@ let sum = 0;
 
 for (let n of reduceArr) sum += n;
 // same as the expression below. but the expression above is cleaner
-for (let n of reduceArr) sum += n;
+for (let n of reduceArr) sum = sum + n;
 console.log(sum);
+
+// The modern way to achieve this is with the reduce method
+
+const sumArr = reduceArr.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0); // The 0 sets the accumulator to 0, similar to let sum = 0
+
+console.log(sumArr);
