@@ -635,7 +635,7 @@ console.log(atLeastOnePositive);
 const filterArr = [1, 2, -1, 3, 4];
 
 const filtered = filterArr.filter(
-  (value) => value >= 0 //Takes only the positive numbers
+  (v) => v >= 0 //Takes only the positive numbers. v is short for value
 );
 
 console.log(filtered);
