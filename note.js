@@ -639,3 +639,9 @@ const filtered = filterArr.filter(
 );
 
 console.log(filtered);
+
+////////////////////////
+// MAPPING AN ARRAY
+// This is used to map each item in an array to something else
+const items = filtered.map((v) => "<li>" + v + "</li>");
+console.log(items);
