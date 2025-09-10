@@ -570,13 +570,13 @@ sortArr.reverse(); // The reverse method works with the sort method to reverse t
 console.log(sortArr);
 
 //When applied to reference types
-
+// The sort() method takes an a parameter which is a callback function
 const sortArrRef = [
   { id: 1, name: "UI/UX" },
   { id: 2, name: "Graphic Design" },
 ];
 
-sortArrRef.sort(function (a, b) {
+sortArrRef.sort((a, b) => {
   // a < b => -1
   // a > b => 1
   // a === b => 0
