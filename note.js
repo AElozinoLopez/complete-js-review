@@ -587,3 +587,24 @@ sortArrRef.sort((a, b) => {
 });
 
 console.log(sortArrRef);
+
+// NOTE: if the g in Graphics is changed to lowercase, the sort will not work because
+// in the ascii table the capital letter comes befoer the small ledtter. chdeck to confirm
+const sortArrRef2 = [
+  { id: 1, name: "UI/UX" },
+  { id: 2, name: "graphic Design" },
+];
+sortArrRef2.sort((a, b) => {
+  // a < b => -1
+  // a > b => 1
+  // a === b => 0
+
+  const nameA = a.name.toUpperCase();
+  const nameB = b.name.toUpperCase();
+
+  if (nameA < nameB) return -1;
+  if (nameA > nameB) return 1;
+  return 0;
+});
+
+console.log(sortArrRef2);
