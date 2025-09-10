@@ -551,8 +551,11 @@ const joined = joinArr.join(",");
 console.log(joined);
 
 // The split() method is used to seperate the elements in a string. The result is an array
-const splitStr = "This string is going ot be split now!";
+const splitStr = "This string is going to be split now!";
 
 const splited = splitStr.split(" ");
+const urlSlug = splited.join("-"); // This technique of combining split and join method can
+// be used to create url slug
 
 console.log(splited);
+console.log(urlSlug);
