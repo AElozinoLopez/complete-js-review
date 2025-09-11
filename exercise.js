@@ -213,3 +213,4 @@ function includes(array, searchElement) {
 }
 
 console.log(includes(numbersEx2, 1));
+console.log(includes(numbersEx2, -1));
