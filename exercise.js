@@ -197,3 +197,12 @@ function arrayFromRange(min, max) {
 const numbersArrEx = arrayFromRange(1, 4);
 
 console.log(numbersArrEx);
+
+// Note: if the max number passed is less than the min numbet we get an empty array as the result
+
+//  Exercise 2
+// Create a function that behaves like the includes method. It should return true if the
+// searchElement is in the array otherwise it should return false.
+
+// Solution
+function includes(array, searchElement) {}
