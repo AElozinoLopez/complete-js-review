@@ -180,3 +180,10 @@ function Post(title, body, author) {
 
 const blogPost = new Post("a", "b", "c");
 console.log(blogPost);
+
+/////////////////////////////////////////////////////////
+// ARRAY EXERCISES
+
+// Exercise 1
+// Write a function that takes two parameters (min, max) and
+// returns all the numbers in the array from the minimum to the maximum
