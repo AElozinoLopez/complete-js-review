@@ -214,3 +214,14 @@ function includes(array, searchElement) {
 
 console.log(includes(numbersEx2, 1));
 console.log(includes(numbersEx2, -1));
+
+// Exercise 3
+// Write a function that excludes chosen elements from an array
+
+const numbersEx3 = [1, 2, 3, 4];
+
+const output = except(numbers, 1);
+
+console.log(output);
+
+function except(array, excluded) {}
