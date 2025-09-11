@@ -205,4 +205,11 @@ console.log(numbersArrEx);
 // searchElement is in the array otherwise it should return false.
 
 // Solution
-function includes(array, searchElement) {}
+const numbersEx2 = [1, 2, 3, 4, 5];
+
+function includes(array, searchElement) {
+  for (let number of array) if (number === searchElement) return true;
+  return false;
+}
+
+console.log(includes(numbersEx2, 1));
