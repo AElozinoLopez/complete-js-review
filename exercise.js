@@ -187,3 +187,9 @@ console.log(blogPost);
 // Exercise 1
 // Write a function that takes two parameters (min, max) and
 // returns all the numbers in the array from the minimum to the maximum
+
+const numbersArrEx = arrayFromRange(1, 4);
+
+console.log(numbersArrEx);
+
+function arrayFromRange(min, max) {}
