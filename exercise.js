@@ -216,12 +216,14 @@ console.log(includes(numbersEx2, 1));
 console.log(includes(numbersEx2, -1));
 
 // Exercise 3
-// Write a function that excludes chosen elements from an array
+// Write a function that excludes chosen elements as specified in the second parameter from an array
 
 const numbersEx3 = [1, 2, 3, 4];
 
-const output = except(numbers, 1);
+const output = except(numbersEx3, 1);
 
 console.log(output);
 
-function except(array, excluded) {}
+function except(array, excluded) {
+  for (let except of array) if (except === excluded) return;
+}
