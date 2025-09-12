@@ -226,5 +226,6 @@ console.log(output);
 
 function except(array, excluded) {
   const output = [];
-  for (let except of array) if (except === excluded) return;
+  for (let element of array)
+    if (!excluded.includes(element)) return output.push(element);
 }
