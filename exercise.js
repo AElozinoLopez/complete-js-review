@@ -225,5 +225,6 @@ const output = except(numbersEx3, 1);
 console.log(output);
 
 function except(array, excluded) {
+  const output = [];
   for (let except of array) if (except === excluded) return;
 }
