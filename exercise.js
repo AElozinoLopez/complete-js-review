@@ -220,7 +220,7 @@ console.log(includes(numbersEx2, -1));
 
 const numbersEx3 = [1, 2, 3, 4];
 
-const output = except(numbersEx3, 1);
+const output = except(numbersEx3, [1]);
 
 console.log(output);
 
