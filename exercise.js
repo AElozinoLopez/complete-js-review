@@ -220,17 +220,17 @@ console.log(includes(numbersEx2, -1));
 
 const numbersEx3 = [1, 2, 3, 4];
 
-const output = except(numbersEx3, [1]);
+const result = except(numbersEx3, [1]);
 
-console.log(output);
+console.log(result);
 
 function except(array, excluded) {
-  const output = [];
+  const result = [];
   for (let element of array)
     if (!excluded.includes(element))
       // Checks if the excluded array is not in the element iterated
-      output.push(element);
-  return output;
+      result.push(element);
+  return result;
 }
 
 ////////////////////////////////////////////////////////////////////////////
