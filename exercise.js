@@ -248,8 +248,8 @@ const output = move(numbers, 0, 1);
 console.log(output);
 
 function move(array, index, offset) {
-  const output = [];
-
-  for (let numbers of array) 
-
+  const output = [...numbersEx4]; // Pass copy the numbersEx4 array to output
+  const element = output.splice(index, 1)[0]; // Removes '1' element at the specified index and returns an array so we can access the first element '[0]' of tbe array
+  output.splice(index + offset, 0, element); // To put the removed element back in the output array
+  return output;
 }
