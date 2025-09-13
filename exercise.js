@@ -240,3 +240,11 @@ function except(array, excluded) {
 // which offsets an element at a specified index according to the value specified in the offset
 
 // Solution
+
+const numbersEx4 = [1, 2, 3, 4];
+
+const output = move(numbers, 0, 0);
+
+console.log(output);
+
+function move(array, index, offset) {}
