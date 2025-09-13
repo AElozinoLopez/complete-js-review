@@ -232,3 +232,11 @@ function except(array, excluded) {
       output.push(element);
   return output;
 }
+
+////////////////////////////////////////////////////////////////////////////
+
+// Exercise 4
+// Write a function that takes three parameters - array, index, and offset,
+// which offsets an element at a specified index according to the value specified in the offset
+
+// Solution
