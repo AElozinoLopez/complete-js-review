@@ -243,8 +243,13 @@ function except(array, excluded) {
 
 const numbersEx4 = [1, 2, 3, 4];
 
-const output = move(numbers, 0, 0);
+const output = move(numbers, 0, 1);
 
 console.log(output);
 
-function move(array, index, offset) {}
+function move(array, index, offset) {
+  const output = [];
+
+  for (let numbers of array) 
+
+}
