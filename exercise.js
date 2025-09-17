@@ -259,3 +259,7 @@ function move(array, index, offset) {
   output.splice(position, 0, element); // To put the removed element back in the output array
   return output;
 }
+
+// Exercise 5
+// Create a function called countOccurrences that takes an array and
+// a searchElement and returns the number of times that searchElement has occurred in the array.
