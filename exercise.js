@@ -290,6 +290,7 @@ console.log(count);
 const numbersEx6 = [1, 2, 3, 4, 5];
 
 function getMax(array) {
+  if (array.length === 0) return undefined;
   // return getMax(array);
 }
 
