@@ -266,4 +266,11 @@ function move(array, index, offset) {
 
 const numbersEx5 = [1, 2, 3, 4, 1];
 
-function countOccurrences(array, searchElement) {}
+function countOccurrences(array, searchElement) {
+  for (let element of numbersEx5)
+    return searchElement.length === element.length ? element : element.length;
+}
+
+const count = countOccurrences(numbersEx5, 1);
+
+console.log(count);
