@@ -302,10 +302,11 @@ function getMax(array) {
   // return max;
 
   // Solution 2 --- using the reduce method
-  array.reduce((accumulator, current) => {
-    if (current > accumulator) return current;
-    return accumulator;
-  }, 0);
+  array.reduce(
+    (a, b) => (a > b ? a : b)
+    // if (current > accumulator) return current;  //use ternary operator
+    // return accumulator;
+  );
 }
 
 console.log(maxNum);
