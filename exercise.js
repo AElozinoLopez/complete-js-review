@@ -272,7 +272,7 @@ function countOccurrences(array, searchElement) {
   // for (let element of array) if (element === searchElement) count++;
   // return count;
 
-  // Solution 2
+  // Solution 2  --- using the reduce method
   return array.reduce((accumulator, current) => {
     const occurrence = current === searchElement ? 1 : 0;
     // console.log(accumulator, current, searchElement);  //This line is not necessary as we have already return array.reduce
@@ -294,11 +294,18 @@ const maxNum = getMax([1, 3, 6]);
 function getMax(array) {
   if (array.length === 0) return undefined;
 
-  let max = array[0];
+  // Solution 1
+  // let max = array[0];
 
-  for (let i = 1; i < array.length; i++) if (array[i] > max) max = array[i];
+  // for (let i = 1; i < array.length; i++) if (array[i] > max) max = array[i];
 
-  return max;
+  // return max;
+
+  // Solution 2 --- using the reduce method
+  array.reduce((accumulator, current) => {
+    if (current > accumulator) return current;
+    return accumulator;
+  }, 0);
 }
 
 console.log(maxNum);
