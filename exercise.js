@@ -289,14 +289,16 @@ console.log(count);
 
 const numbersEx6 = [1, 2, 3, 4, 5];
 
+const maxNum = getMax([1, 3, 6]);
+
 function getMax(array) {
   if (array.length === 0) return undefined;
 
-  let max = [0];
+  let max = array[0];
 
   for (let i = 1; i < array.length; i++) if (array[i] > max) max = array[i];
 
   return max;
 }
 
-console.log(getMax(numbersEx6));
+console.log(maxNum);
