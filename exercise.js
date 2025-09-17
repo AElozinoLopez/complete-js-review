@@ -265,3 +265,5 @@ function move(array, index, offset) {
 // a searchElement and returns the number of times that searchElement has occurred in the array.
 
 const numbersEx5 = [1, 2, 3, 4, 1];
+
+function countOccurrences(array, searchElement) {}
