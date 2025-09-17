@@ -275,7 +275,7 @@ function countOccurrences(array, searchElement) {
   // Solution 2
   return array.reduce((accumulator, current) => {
     const occurrence = current === searchElement ? 1 : 0;
-    console.log(accumulator, current, searchElement);
+    // console.log(accumulator, current, searchElement);  //This line is not necessary as we have already return array.reduce
     return accumulator + occurrence;
   }, 0);
 }
@@ -286,3 +286,5 @@ console.log(count);
 
 // Exercise 6
 // Create a function called getMax, we give it an array and it returns the largest number in the array.
+
+// const numbersEx6 = [1, 2, 3, 4, 5];
