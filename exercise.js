@@ -287,4 +287,4 @@ console.log(count);
 // Exercise 6
 // Create a function called getMax, we give it an array and it returns the largest number in the array.
 
-// const numbersEx6 = [1, 2, 3, 4, 5];
+const numbersEx6 = [1, 2, 3, 4, 5];
