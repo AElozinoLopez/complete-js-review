@@ -299,4 +299,4 @@ function getMax(array) {
   return max;
 }
 
-console.log(getMax(2));
+console.log(getMax(numbersEx6));
