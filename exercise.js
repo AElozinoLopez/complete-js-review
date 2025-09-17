@@ -243,13 +243,13 @@ function except(array, excluded) {
 
 const numbersEx4 = [1, 2, 3, 4];
 
-const output = move(numbersEx4, 0, 3); // the move() method is used to move an element in an array
+const output = move(numbersEx4, 0, -3); // the move() method is used to move an element in an array
 
 console.log(output);
 
 function move(array, index, offset) {
   const position = index + offset;
-  if (position >= array.length) {
+  if (position >= array.length || position < 0) {
     console.error("Invalid offset. ");
     return;
   }
