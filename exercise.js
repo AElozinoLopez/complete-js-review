@@ -299,6 +299,4 @@ function getMax(array) {
   return max;
 }
 
-const max = getMax([2]);
-
-console.log(maxNum);
+console.log(getMax(2));
