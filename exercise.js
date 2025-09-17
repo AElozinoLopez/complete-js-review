@@ -288,3 +288,9 @@ console.log(count);
 // Create a function called getMax, we give it an array and it returns the largest number in the array.
 
 const numbersEx6 = [1, 2, 3, 4, 5];
+
+function getMax(array) {}
+
+const max = getMax([2]);
+
+console.log(max);
