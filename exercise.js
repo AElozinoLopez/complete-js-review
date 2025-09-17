@@ -243,14 +243,18 @@ function except(array, excluded) {
 
 const numbersEx4 = [1, 2, 3, 4];
 
-const output = move(numbersEx4, 0, 4); // the move() method is used to move an element in an array
+const output = move(numbersEx4, 0, 3); // the move() method is used to move an element in an array
 
 console.log(output);
 
 function move(array, index, offset) {
   const position = index + offset;
+  if (position >= array.length) {
+    console.error("Invalid offset. ");
+    return;
+  }
 
-  const output = [...numbersEx4]; // Pass copy of the numbersEx4 array to output
+  const output = [...array]; // Pass copy of the numbersEx4 array to output
   const element = output.splice(index, 1)[0]; // Removes 1 element at the specified index and returns an array with the first returned element starting at [0] index.
   output.splice(position, 0, element); // To put the removed element back in the output array
   return output;
