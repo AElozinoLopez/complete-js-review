@@ -283,3 +283,6 @@ function countOccurrences(array, searchElement) {
 const count = countOccurrences(numbersEx5, 1);
 
 console.log(count);
+
+// Exercise 6
+// Create a function called getMax, we give it an array and it returns the largest number in the array.
