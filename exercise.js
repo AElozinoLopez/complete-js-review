@@ -323,4 +323,12 @@ const movies = [
 ];
 
 // Solution
-function movieRanking(movies) {}
+// function movieRanking(movies) {
+//   const movieYear =
+// }
+
+movies
+  .filter((m) => m.year === 2025 && m.rating >= 4) // To get the year and rating
+  .sort((a, b) => a.rating - b.rating) // Similar to saying
+  .reverse() // To reverse the output of .sort to descending order
+  .map((m) => m.title); // To print only the tile of .reverse output
