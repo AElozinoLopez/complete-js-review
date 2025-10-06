@@ -321,3 +321,6 @@ const movies = [
   { title: "c", year: 2025, rating: 3 },
   { title: "d", year: 2022, rating: 4.5 },
 ];
+
+// Solution
+function movieRanking(movies) {}
