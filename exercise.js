@@ -312,6 +312,9 @@ function getMax(array) {
 console.log(maxNum);
 
 // Exercise 7
+// Write a function that displays all the movies in 2025 with rating greater than 4.
+// The function should sort the movies by their rating in descending order and pick their title
+
 const movies = [
   { title: "a", year: 2025, rating: 4.5 },
   { title: "b", year: 2025, rating: 4.7 },
