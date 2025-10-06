@@ -310,3 +310,11 @@ function getMax(array) {
 }
 
 console.log(maxNum);
+
+// Exercise 7
+const movies = [
+  { title: "a", year: 2025, rating: 4.5 },
+  { title: "b", year: 2025, rating: 4.7 },
+  { title: "c", year: 2025, rating: 3 },
+  { title: "d", year: 2022, rating: 4.5 },
+];
